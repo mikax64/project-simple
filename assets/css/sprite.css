@@ -1,0 +1,110 @@
+.svgSprite {
+    font-size: 10px;
+}
+
+.svgSprite:before {
+    content:' ';
+    vertical-align:middle;
+    display: inline-block;
+    background-image: url("../svg/sprite.svg");
+    background-repeat: no-repeat;
+    background-size: 3em 30em;
+}
+
+.no-svg .svgSprite:before {
+    background-image: url("../svg/sprite.png");
+}
+
+
+
+  .svgSprite.icon_smiley-bad:before {
+      background-position: 0em 0em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-bad-color:before {
+      background-position: 0em -3em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-good:before {
+      background-position: 0em -6em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-good-color:before {
+      background-position: 0em -9em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-neutral:before {
+      background-position: 0em -12em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-neutral-color:before {
+      background-position: 0em -15em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-vbad:before {
+      background-position: 0em -18em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-vbad-color:before {
+      background-position: 0em -21em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-vgood:before {
+      background-position: 0em -24em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+  .svgSprite.icon_smiley-vgood-color:before {
+      background-position: 0em -27em;
+      width: 3em;
+      height: 3em;
+  }
+
+
+
+
+
